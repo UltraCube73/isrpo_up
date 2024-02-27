@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:isrpo_up"
         mc:Ignorable="d"
-        Title="Catalog" Height="800" Width="800" Background="LightGray">
+        Title="Catalog" Height="900" Width="800" Background="LightGray">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="80"/>

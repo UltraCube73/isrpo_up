@@ -70,6 +70,7 @@ namespace isrpo_up
                 TextBlock nameTextBlock = new TextBlock();
                 nameTextBlock.Text = product.Name;
                 nameTextBlock.FontSize = 12;
+                nameTextBlock.TextWrapping = TextWrapping.Wrap;
 
                 TextBlock costTextBlock = new TextBlock();
                 costTextBlock.Text = product.Cost.ToString();
