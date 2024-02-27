@@ -1,0 +1,27 @@
+﻿<Window x:Class="isrpo_up.PaymentForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:isrpo_up"
+        mc:Ignorable="d"
+        Title="PaymentForm" Height="450" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Image Grid.Column="1" Grid.Row="1" Source="Resources/sber.png"/>
+        <TextBlock Grid.Column="1" Grid.Row="3" Text="Ну тут типа смс должна прийти ок да?" TextWrapping="Wrap"/>
+        <Button x:Name="b_return" Grid.Column="1" Grid.Row="4" Content="пон" Click="b_return_Click"/>
+    </Grid>
+</Window>
